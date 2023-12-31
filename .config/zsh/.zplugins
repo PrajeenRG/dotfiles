@@ -38,7 +38,7 @@ belak/zsh-utils path:history
 # Prompts
 sindresorhus/pure kind:fpath
 # romkatv/powerlevel10k kind:fpath
-# belak/zsh-utils path:prompt
+belak/zsh-utils path:prompt
 
 # Utilities
 ohmyzsh/ohmyzsh path:plugins/extract
@@ -50,12 +50,12 @@ mattmc3/zman
 kazhala/dotbare
 
 # Completions
-# $ZDOTDIR/completions kind:fpath
+$ZDOTDIR/completions kind:fpath
 zsh-users/zsh-completions kind:fpath path:src
 belak/zsh-utils path:completion
 
 # zshrc.d
-# mattmc3/zshrc.d
+mattmc3/zshrc.d
 
 # Deferred plugins
 zdharma-continuum/fast-syntax-highlighting kind:defer
