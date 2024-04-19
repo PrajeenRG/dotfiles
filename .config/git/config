@@ -8,3 +8,5 @@
 	defaultBranch = master
 [core]
 	excludesFile = /home/prajeen/.config/git/global.gitignore
+[push]
+	autoSetupRemote = true
