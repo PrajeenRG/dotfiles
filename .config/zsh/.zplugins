@@ -42,6 +42,7 @@ spaceship-prompt/spaceship-prompt kind:fpath
 belak/zsh-utils path:prompt
 
 # Utilities
+ohmyzsh/ohmyzsh path:plugins/direnv
 ohmyzsh/ohmyzsh path:plugins/extract
 ohmyzsh/ohmyzsh path:plugins/golang
 belak/zsh-utils path:utility

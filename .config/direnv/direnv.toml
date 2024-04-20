@@ -1,0 +1,6 @@
+[global]
+load_dotenv = true
+warn_timeout = "15s"
+
+[whitelist]
+prefix = ["~/Projects"]
