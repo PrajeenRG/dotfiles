@@ -19,6 +19,7 @@ unset _zdir
 # Custom
 export DOTBARE_DIR=$XDG_DATA_HOME/dotfiles
 export GNUPGHOME=$XDG_DATA_HOME/gnupg
+export PULUMI_HOME=$XDG_DATA_HOME/pulumi
 export PYTHONPYCACHEPREFIX=$XDG_CACHE_HOME/python
 export PYTHONUSERBASE=$XDG_DATA_HOME/python
 export REPO_HOME=$XDG_CACHE_HOME/repos
