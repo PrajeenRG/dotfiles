@@ -17,9 +17,6 @@ done
 unset _zdir
 
 # Custom
-export ASDF_DIR=$XDG_DATA_HOME/asdf
-export ASDF_COMPLETIONS=$ASDF_DIR/completions
-export ASDF_DATA_DIR=$XDG_DATA_HOME/asdf
 export DOTBARE_DIR=$XDG_DATA_HOME/dotfiles
 export GNUPGHOME=$XDG_DATA_HOME/gnupg
 export PYTHONPYCACHEPREFIX=$XDG_CACHE_HOME/python
