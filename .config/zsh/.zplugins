@@ -43,6 +43,7 @@ belak/zsh-utils path:prompt
 
 # Utilities
 ohmyzsh/ohmyzsh path:plugins/extract
+ohmyzsh/ohmyzsh path:plugins/golang
 belak/zsh-utils path:utility
 romkatv/zsh-bench kind:path
 $ZDOTDIR/plugins/zoxide

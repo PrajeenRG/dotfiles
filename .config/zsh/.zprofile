@@ -42,6 +42,9 @@ path=(
   $HOME/{,s}bin(N)
   /usr/local/{,s}bin(N)
 
+  # go installation
+  /usr/local/go/bin
+
   # path
   $path
 )
