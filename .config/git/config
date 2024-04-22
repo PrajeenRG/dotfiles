@@ -10,3 +10,13 @@
 	excludesFile = /home/prajeen/.config/git/global.gitignore
 [push]
 	autoSetupRemote = true
+[alias]
+	p = push
+	st = status -sb
+	ll = log --oneline
+	last = log -1 HEAD --stat
+	cm = commit -m
+	cs = commit -s
+	rv = remote -v
+	gl = config --global -l
+	csm = commit -s -m
