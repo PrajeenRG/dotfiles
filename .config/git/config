@@ -8,8 +8,10 @@
 	defaultBranch = master
 [core]
 	excludesFile = /home/prajeen/.config/git/global.gitignore
+	editor = nvim
 [push]
 	autoSetupRemote = true
+	default = current
 [alias]
 	p = push
 	st = status -sb
@@ -20,3 +22,14 @@
 	rv = remote -v
 	gl = config --global -l
 	csm = commit -s -m
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[rerere]
+	enable = true
+[remote "origin"]
+	prune = true
+[log]
+	abbrevCommit = true
