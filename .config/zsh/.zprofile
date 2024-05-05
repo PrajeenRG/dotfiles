@@ -45,6 +45,8 @@ path=(
 
   # go installation
   /usr/local/go/bin
+  # zig installation
+  /usr/local/zig
 
   # path
   $path
