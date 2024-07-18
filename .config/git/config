@@ -1,6 +1,6 @@
 [user]
 	name = Prajeen Govardhanam
-	email = contact@prajeen.com
+	email = p@prajeen.com
 	signingKey = 72F18336
 [commit]
 	gpgsign = true
