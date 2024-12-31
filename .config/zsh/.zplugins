@@ -49,7 +49,7 @@ belak/zsh-utils path:utility
 romkatv/zsh-bench kind:path
 $ZDOTDIR/plugins/zoxide
 mattmc3/zman
-kazhala/dotbare
+rgprajeen/dotbare
 
 # Completions
 $ZDOTDIR/completions kind:fpath
