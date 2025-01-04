@@ -50,6 +50,7 @@ romkatv/zsh-bench kind:path
 $ZDOTDIR/plugins/zoxide
 mattmc3/zman
 rgprajeen/dotbare
+wintermi/zsh-mise
 
 # Completions
 $ZDOTDIR/completions kind:fpath

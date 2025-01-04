@@ -41,6 +41,7 @@ cdpath=(
 path=(
   # core
   $HOME/{,s}bin(N)
+  $HOME/.local/{,s}bin(N)
   /usr/local/{,s}bin(N)
 
   # go installation
