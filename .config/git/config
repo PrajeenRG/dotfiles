@@ -1,7 +1,7 @@
 [user]
 	name = R G Prajeen
 	email = p@prajeen.com
-	signingKey = 72F18336
+	signingKey = AD845E6BF768E889
 [commit]
 	gpgsign = true
 [init]
