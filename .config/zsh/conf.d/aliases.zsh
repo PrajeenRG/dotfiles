@@ -11,7 +11,7 @@
 
 # single character shortcuts - be sparing!
 alias _=sudo
-alias l=ls
+alias l=eza
 alias g=git
 
 # mask built-ins with better defaults
@@ -20,15 +20,21 @@ alias vi=vim
 alias nv=nvim
 alias hx=helix
 alias grep="command grep --exclude-dir={.git,.vscode}"
+alias rg="command rg --exclude-dir={.git,.vscode}"
 
 # directories
 alias secrets="cd ${XDG_DATA_HOME:=~/.local/share}/secrets"
 
 # more ways to ls
-alias ll='ls -lh'
-alias la='ls -lAh'
-alias lsa="ls -aG"
-alias ldot='ls -ld .*'
+alias ls='eza --color=always --group-directories-first --icons'
+alias ll='eza -la --icons --octal-permissions --group-directories-first'
+alias l='eza -bGF --header --git --color=always --group-directories-first --icons'
+alias llm='eza -lbGd --header --git --sort=modified --color=always --group-directories-first --icons'
+alias la='eza --long --all --group --group-directories-first'
+alias lx='eza -lbhHigUmuSa@ --time-style=long-iso --git --color-scale --color=always --group-directories-first --icons'
+alias lS='eza -1 --color=always --group-directories-first --icons'
+alias lt='eza --tree --level=2 --color=always --group-directories-first --icons'
+alias l.="eza -a | grep -E '^\.'"
 
 # fix typos
 alias get=git
@@ -48,8 +54,8 @@ alias utc="date -u +%Y-%m-%dT%H:%M:%SZ"
 alias unixepoch="date +%s"
 
 # find
-alias fd='find . -type d -name'
-alias ff='find . -type f -name'
+alias ffd='find . -type d -name'
+alias fff='find . -type f -name'
 
 # disk usage
 alias biggest='du -s ./* | sort -nr | awk '\''{print $2}'\'' | xargs du -sh'
