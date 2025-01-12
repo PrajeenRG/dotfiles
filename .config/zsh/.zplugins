@@ -36,7 +36,7 @@ belak/zsh-utils path:history
 # $ZDOTDIR/plugins/python
 
 # Prompts
-spaceship-prompt/spaceship-prompt kind:fpath
+# spaceship-prompt/spaceship-prompt kind:fpath
 # sindresorhus/pure kind:fpath
 # romkatv/powerlevel10k kind:fpath
 belak/zsh-utils path:prompt
